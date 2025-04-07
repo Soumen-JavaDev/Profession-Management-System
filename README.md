@@ -26,7 +26,7 @@ A simple employee management web app built using HTML, CSS, and JavaScript. You 
 
 ## 🖼️ Preview
 
-![Employee Manager Screenshot](./preview.png)
+![Project Preview](./preview.jpeg)
 
 
 ---
