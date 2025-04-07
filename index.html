@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+   
+    <div id="contener">
+        <h2>New Employees</h2>
+       
+            
+            <form action="post" id="user_form">
+                <div class="input_box">
+                    <div>
+                        <label for="name">Enter Name</label>
+                        <input placeholder="Enter Name" type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="profession">Enter Profession </label>
+                        <input placeholder="Enter Profession" type="text" id="profession">
+                    </div>
+                    <div>
+                        <label for="age">Enter Age</label>
+                      <input placeholder="Enter Age" type="number" name="age" id="age">
+                    </div>
+                </div>
+                    <button class="addUserBtn" type="submit">Add user</button>
+            </form>
+          <p id="massage"></p>
+       
+
+        <h3>Added Emplyees</h3>
+
+        <div id="user_list"> 
+            <div class="empty">Data Not Found</div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
